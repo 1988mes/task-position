@@ -1,5 +1,7 @@
+
 .nav-list {
   font-size: 0;
+  padding: 15px;
 }
 
 .nav-list-item {
@@ -8,6 +10,8 @@
   background: #4A996D;
   border: 1px solid;
   position: relative;
+  max-width: 170px;
+  min-width: 170px;
 }
 
 .nav-list-item:hover {
@@ -28,22 +32,23 @@
   display: none;
 }
 
-.nav-list-item:hover > .sub-sub-nav-list {
+.sub-nav-list-item:hover > .sub-sub-nav-list {
   display: block;
 }
 
-.sub-nav-list-item {
-  display: flex;
-  }
-
-  .sub-sub-nav-list {
-    padding-left: 76px;
-  }
+.sub-sub-nav-list {
+  left: 170px;
+  top: 0;
+}
 
 .link {
   display: block;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 20px 60px;
   color: white;
 }
 
+.p {
+  padding: 15px;
+  padding-top: 20px;
+}
